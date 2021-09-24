@@ -1,0 +1,107 @@
+.main__table-body {
+    border-bottom: 1px solid rgb(139, 139, 139);
+    border-left: 1px solid rgb(238, 238, 238);
+    border-right: 1px solid rgb(238, 238, 238);
+    border-top: none;
+}
+
+.acc, .access, .summary, .last-updated,.toggle {
+    text-align: center;
+    padding: .8rem .2rem;
+}
+
+.acc {
+    min-width: 5%;
+}
+
+.dept {
+    min-width: 25%;
+}
+
+.access {
+    min-width: 25%;
+}
+
+.summary {
+    min-width: 25%;
+}
+
+.last-updated {
+    min-width: 10%;
+}
+
+.toggle {
+    min-width: 10%;
+}
+
+.access__btn,.restrict__btn,.no__access__btn {
+    padding: .3rem 1rem;
+    border-radius: 15px;
+}
+
+.access__btn {
+    color: #27AE60;
+    background-color: #BEE7CF;
+    border: 1px solid #27AE60;
+}
+
+.restrict__btn {
+    color: #F24822;
+    background-color: #FFB5B5;
+    border: 1px solid #f24822;
+}
+
+.no__access__btn {
+    color: rgb(139, 139, 139);
+    background-color: rgb(231, 231, 231);
+    border: 1px solid rgb(139, 139, 139);
+}
+
+.accordion__btn {
+    background: none;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    padding: 0 .2rem;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 500px){
+    .acc {
+        min-width: 10%;
+    }
+
+    .last-updated {
+        min-width: 15%;
+    }
+    .toggle {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .acc {
+        min-width: 10%;
+    }
+
+    .dept {
+        min-width: 35%;
+    }
+
+    .access {
+        min-width: 30%;
+    }
+
+    .summary {
+        min-width: 25%;
+    }
+
+    .last-updated {
+        display: none;
+    }
+    
+    .toggle {
+        display: none;
+    }
+}

@@ -1,0 +1,44 @@
+.accordion {
+    width: 100%;
+    transition: all .3s ease;
+    padding: .5rem 2rem;
+}
+
+.accordion__content {
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.accordion__content-left {
+    height: 100%;
+    gap: .5rem;
+}
+
+.accordion__form {
+    width: 100%;
+}
+
+.accordion__content-right {
+    padding: 0 2rem;
+    border-left: 1px solid lightgray;
+}
+
+.accordion__right-checklist {
+    margin-top: .5rem;
+    gap: .5rem;
+}
+
+.checklist__container {
+    width: 100%;
+}
+
+.accordion__span {
+    margin-left: .5rem;
+}
+
+.acc__true {
+    border-bottom: none;
+}
+

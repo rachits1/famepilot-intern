@@ -1,0 +1,23 @@
+.sidebar {
+    background-color: var(--color-tertiary);
+    width: 25%;
+    gap: .5rem;
+    height: 100vh;
+    justify-content: flex-start;
+}
+
+/* Responsive */
+
+@media screen and (max-width:800px){
+    .sidebar {
+        width: 100%;
+        height: inherit;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .sidebar {
+        flex-wrap: wrap;
+    }
+}

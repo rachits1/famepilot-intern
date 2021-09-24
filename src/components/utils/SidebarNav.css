@@ -1,0 +1,31 @@
+.sidebar__nav {
+    /* background-color: antiquewhite; */
+    width: 100%;
+    justify-content: flex-start;
+    padding: 1rem;
+    cursor: pointer;
+    position: relative;
+    gap: 1rem;
+    z-index: 1;
+}
+
+.sidebar__nav > i, .sidebar__nav > h5 {
+    position: relative;
+    z-index: 5;
+}
+
+.sidebar__nav::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 4px;
+    background-color: var(--color-secondary);
+    transition: all .4s ease-in-out;
+}
+
+.sidebar__nav:hover::before {
+    width: 100%;
+    background-color: #d9c5fc;
+}
